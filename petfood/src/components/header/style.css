@@ -1,0 +1,19 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    margin: 10px 0;
+    width: 300px;
+}
+
+
+.cart-button {
+    position: relative;
+    float: right;
+    margin-top: -70px;
+    margin-right: 20px;
+    z-index: 999;
+}

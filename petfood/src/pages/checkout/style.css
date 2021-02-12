@@ -1,0 +1,12 @@
+.section-title {
+   display: inline-block;
+   margin-bottom: 8px;
+   border-bottom: solid 2px var(--primary-color);
+   padding-bottom: 5px;
+}
+
+.box-right {
+   max-height: 500px;
+   overflow-y: auto;
+
+}
