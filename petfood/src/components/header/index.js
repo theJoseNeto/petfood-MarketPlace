@@ -1,5 +1,6 @@
 import Logo from '../../assets/logo.png';
 import LogoGreen from '../../assets/logo-green.png';
+import { Link } from 'react-router-dom';
 import '../header/style.css';
 const Header = ({ logoWhiteVersion, hideCart }) => {
 
@@ -10,7 +11,9 @@ const Header = ({ logoWhiteVersion, hideCart }) => {
 	return (
 		<div class='col-12'>
 			<header>
-				<img src={logoWhiteVersion ? Logo : LogoGreen} class="img-fluid logo" />
+				<Link to="/">
+					<img src={logoWhiteVersion ? Logo : LogoGreen} class="img-fluid logo" />
+				</Link>
 			</header>
 
 			{!hideCart && <button
