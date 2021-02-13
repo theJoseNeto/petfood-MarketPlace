@@ -1,6 +1,6 @@
 import GoogleMapReact from 'google-map-react';
+import Marker from '../marker';
 import './style.css';
-
 const Map = () => {
    return (
       <div className="map">
@@ -13,7 +13,7 @@ const Map = () => {
             }}
             defaultZoom={15}
          >
-
+            <Marker />
          </GoogleMapReact>
       </div>
    )

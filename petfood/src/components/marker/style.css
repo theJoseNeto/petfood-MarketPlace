@@ -1,0 +1,12 @@
+.img-marker {
+   width: 35px;
+   position: absolute;
+   top: 7px;
+   left: 18px;
+   border-radius: 100%;
+}
+
+.marker-icon {
+   width: 70px;
+   height: 70px;
+}
